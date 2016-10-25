@@ -7,9 +7,9 @@ require "lazy_images/rails/version"
 Gem::Specification.new do |s|
   s.name        = "lazy_images-rails"
   s.version     = LazyImages::Rails::VERSION
-  s.authors     = ["René Hansen"]
-  s.email       = ["renehh@gmail.com"]
-  s.homepage    = "https://github.com/rhardih/lazy-images-rails"
+  s.authors     = ["René Hansen", "Tim Hansen"]
+  s.email       = ["willc0de4food@gmail.com"]
+  s.homepage    = "https://github.com/willc0de4food/lazy-images-rails"
   s.summary     = "Simple placeholders for images"
   s.description = "lazy-images-rails is a rails plugin that augments the " \
     "standard image_tag helper to provide instant placeholders while the" \
@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE"]
 
-  s.add_dependency "rails", "~> 4.2.1"
+  s.add_dependency "rails", ">= 4.2.1"
   s.add_dependency "nokogiri", "~> 1.6.6"
 
   s.add_development_dependency "sqlite3"
